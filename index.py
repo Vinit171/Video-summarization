@@ -21,7 +21,7 @@ def hello_world():
     if request.method == "POST":
         myDict = request.form
         # title = request.form.get('title')
-        title = (myDict['title'])
+        title = (myDict['You-Tube video Id'])
 
         tokenizer = PegasusTokenizer.from_pretrained("google/pegasus-xsum")
         #model = PegasusForConditionalGeneration.from_pretrained("google/pegasus-xsum")
